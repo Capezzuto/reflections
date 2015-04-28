@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository in a directory, Git begins to track the states of the files in that directory using the metadata file ".git."  
+You need to do it so that you can begin to create commits to track the stages of each file.
