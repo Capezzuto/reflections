@@ -1,0 +1,4 @@
+Using diff to spot differences between files becomes more useful the longer the code is.
+Checking just 20 lines of code for differences is tedious, but it would be nearly impossible at 10,000 lines.
+Even with just 500 lines, it could take hours to spot all of the differences.
+Bugs are also easier to spot because a typo or bug that you make in one version would have to be made in exactly the same way in a different version, so if the program ran well one time, but not in the newer version, then the typing error becomes more obvious.
