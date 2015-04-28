@@ -2,3 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository in a directory, Git begins to track the states of the files in that directory using the metadata file ".git."  
 You need to do it so that you can begin to create commits to track the stages of each file.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory is the home for all of the files that could potentially be used in a project.  
+The staging area is the home for files that are being changed or could be affected by a commit; that is, they are being tracked.
+The repository is the collection of files plus their metadata information.  It can be copied, like the working directory (in which case it is practically synonymous), or it can be cloned in another location, another working directory.
+
