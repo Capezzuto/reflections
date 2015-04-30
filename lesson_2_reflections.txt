@@ -4,7 +4,19 @@ When you initialize a repository in a directory, Git begins to track the states 
 You need to do it so that you can begin to create commits to track the stages of each file.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The working directory is the home for all of the files that could potentially be used in a project.  
+The working directory is the home for all of the files that are being worked on, but are not yet saved to a commit or added to the staging area in preparation.
+You can make changes to the files and save those changes in your text editor, but they will not become part of the next commit until they are added to the staging area.  
 The staging area is the home for files that are being changed or could be affected by a commit; that is, they are being tracked.
 The repository is the collection of files plus their metadata information.  It can be copied, like the working directory (in which case it is practically synonymous), or it can be cloned in another location, another working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use git diff --staged to compare the changes in the staging area files with the most recent commit.
+This way, you can easily see what the next commit would change from the previous one.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you want to start a new part of a program, but are unsure if it will work, you can make multiple changes to just that aspect in the branch, but continue to work on other changes in the master branch.  
+You could also assemble several different aspects of a larger program in several branches, then merge them into a master branch once they function reasonably well.
+
+
+
 
