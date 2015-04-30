@@ -17,6 +17,10 @@ What are some situations when branches would be helpful in keeping your history 
 If you want to start a new part of a program, but are unsure if it will work, you can make multiple changes to just that aspect in the branch, but continue to work on other changes in the master branch.  
 You could also assemble several different aspects of a larger program in several branches, then merge them into a master branch once they function reasonably well.
 
+How do the diagrams help you visualize the branch structure?
+The diagrams let you see at which stage in the development process new features or fixes have been introduced.  
+You have a better sense of what each branch includes in its code, and what new features might not have been implemented yet in the new branch.
+
 
 
 
