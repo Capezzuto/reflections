@@ -1,2 +1,6 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
 I suppose if I were working on a project with remote partners and there were changes I wanted to make available immediately to everyone involved, then making a commit on a remote repository would make sense.
+2.  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository? 
+If there are changes that are not tested, or if one person in a collaborative project uploads new code, you might want the option to forego the new changes until more thorough testing.
+Alternatively, you might want to attempt your own solution to a problem independently of the new changes on the remote.  
+Or, maybe you want to wait until more commits are made on the remote, so that the new additions to the project are workable and bug-free.
