@@ -11,3 +11,6 @@ A branch is a copy of a commit history, made within the same local repository, w
 You might make a clone of a repository if you wanted to collaborate with someone on a project on your local machine, then upload the changes to GitHub later, or if you wanted to make drastic changes to a project that had been started on the same machine.
 You might fork a repository if you want to make as-yet-unauthorized changes, or changes for your own purposes, to an existing project on GitHub.  
 You would make a new branch in an existing repository if you wanted to work on an extended bit of code that would supplement the program, or wanted to experiment with the program, but weren't sure you would keep the results.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If you're collaborating on a project, it would be useful to be able to compare the most recent state of the project with the code that you are writing.
+This would allow you to work out conflicts between your code and that of your collaborator(s) before you push your new code to GitHub.
