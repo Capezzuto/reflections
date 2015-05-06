@@ -19,3 +19,9 @@ Each person on the team would have to work on code on their own machine, using a
 They would have to run a 'diff' or other comparison program to reconcile the differences between their new versions and the master version.  
 This process would have to be done regularly and could be as time-consuming as writing new code in the first place.  
 I think GitHub streamlines this process by coordinating updates and changes, so it would be easier.
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If you wanted to make changes in a collaborative process, you could create a branch then push that branch to GitHub.  
+Then you would create a pull request to show these changes to the other members of your team before you merge them with the master branch.
+Also, whether you are working collaboratively or by yourself, you can experiment with new features or work on a major component without touching the master branch.  
+That way, you can extensively test the new feature without adversely affecting the core of the program.
+Those are the benefits of creating branches, but it can also be helpful to work primarily in the master branch.  The fewer and shorter the branches are, the fewer conflicts you will have to resolve when it comes time to merge.  It makes viewing the commit history easier and clearer as well.
