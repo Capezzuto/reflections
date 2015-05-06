@@ -4,13 +4,18 @@ I suppose if I were working on a project with remote partners and there were cha
 If there are changes that are not tested, or if one person in a collaborative project uploads new code, you might want the option to forego the new changes until more thorough testing.
 Alternatively, you might want to attempt your own solution to a problem independently of the new changes on the remote.  
 Or, maybe you want to wait until more commits are made on the remote, so that the new additions to the project are workable and bug-free.
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A clone is a copy of a repository made on a local machine originating from another location on a local machine or GitHub.  
 A fork is a clone of a repository on GitHub to another repository on GitHub.  
 A branch is a copy of a commit history, made within the same local repository, where separate changes can be made within the same repository.  
 You might make a clone of a repository if you wanted to collaborate with someone on a project on your local machine, then upload the changes to GitHub later, or if you wanted to make drastic changes to a project that had been started on the same machine.
 You might fork a repository if you want to make as-yet-unauthorized changes, or changes for your own purposes, to an existing project on GitHub.  
 You would make a new branch in an existing repository if you wanted to work on an extended bit of code that would supplement the program, or wanted to experiment with the program, but weren't sure you would keep the results.
-What is the benefit of having a copy of the last known state of the remote stored locally?
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
 If you're collaborating on a project, it would be useful to be able to compare the most recent state of the project with the code that you are writing.
 This would allow you to work out conflicts between your code and that of your collaborator(s) before you push your new code to GitHub.
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Each person on the team would have to work on code on their own machine, using a copies that they download from a compiled, all-differences-reconciled version from the previous day. 
+They would have to run a 'diff' or other comparison program to reconcile the differences between their new versions and the master version.  
+This process would have to be done regularly and could be as time-consuming as writing new code in the first place.  
+I think GitHub streamlines this process by coordinating updates and changes, so it would be easier.
